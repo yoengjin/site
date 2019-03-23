@@ -196,7 +196,7 @@
 
     &.site-title {
       margin-left: 0;
-      min-width: 40em;
+      min-width: 10000em;
     }
   }
 
@@ -214,6 +214,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    min-width: 0;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
