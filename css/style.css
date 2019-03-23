@@ -771,7 +771,7 @@
 	#header
 	{
 		position: relative;
-		background: url(../images/typing.jpg) no-repeat bottom center;
+		background: url(../images/typing.jpg);
 		background-attachment: fixed;
 		background-size: auto;
 		text-align: center;
