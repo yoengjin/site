@@ -2,7 +2,7 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+ko: &DEFAULT_EN
   page                       : "Page"
   pagination_previous        : "Previous"
   pagination_next            : "Next"
