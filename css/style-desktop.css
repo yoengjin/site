@@ -4,6 +4,15 @@
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+  #header-logo{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: #292929;
+    z-index: 1;
+    padding: 1.0em 1.0em;
+    font-size: 2em;
+  }
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/

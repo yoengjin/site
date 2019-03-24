@@ -156,6 +156,7 @@
 		.row > article
 		{
 			margin-bottom: 0;
+            max-height: 10em;
 		}
 
 	/* Images */
@@ -771,7 +772,9 @@
 	#header
 	{
 		position: relative;
-        background-image: url("images/typing.jpg"); 
+        /*background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));*/
+        background-image: url("../images/typing.jpg");
+        background-size: cover;
         padding: 80px 0px; 
         background-position: 50% -15px;
 		/*background-attachment: fixed;
@@ -787,7 +790,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(64,64,64,0.125);
+		/*	background: rgba(64,64,64,0.125);*/
 		}
 
 /*********************************************************************************/
@@ -826,7 +829,6 @@
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
-
 	#nav
 	{
 	}
@@ -881,7 +883,7 @@
 
 			#nav li.active a
 			{
-				color: #FFF;
+				color: #292929;
 			}
 
 			#nav > ul > li > ul
@@ -896,7 +898,7 @@
 	#main
 	{
 		position: relative;
-		background: #fff;
+		background: #f2f2f2;
 	}
 	
 	.homepage #content
@@ -966,7 +968,7 @@
 	#featured
 	{
 		position: relative;
-		background: #f5f5f9;
+		background: #fff;
 		text-align: center;
 	}
 	
