@@ -833,7 +833,7 @@
 
 		#nav-wrapper
 		{
-			background: rgba(0,0,0,.1);
+			background: rgba(255,255,255,.1);
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -854,7 +854,7 @@
 			display: inline-block;
 			border-right: 1px solid;
 			border-color: rgba(255,255,255,.1);
-                height: 2em;
+            height: 2em;
 		}
 		
 			#nav > ul > li:last-child
