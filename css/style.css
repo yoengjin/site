@@ -838,14 +838,13 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-            justify-content: end;
 		}
 		
 		#nav > ul
 		{
 			margin: 0;
 			padding: 0;
-			text-align: center;
+			text-align: end;
 		}
 
 		#nav > ul > li
