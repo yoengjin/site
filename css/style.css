@@ -846,6 +846,7 @@
 			margin: 0;
 			padding: 0;
 			text-align: center;
+                height: 2em;
 		}
 
 		#nav > ul > li
@@ -853,12 +854,14 @@
 			display: inline-block;
 			border-right: 1px solid;
 			border-color: rgba(255,255,255,.1);
+                height: 2em;
 		}
 		
 			#nav > ul > li:last-child
 			{
 				padding-right: 0;
 				border-right: none;
+                height: 2em;
 			}
 
 			#nav > ul > li > a,
@@ -872,16 +875,19 @@
 				font-size: 1.1em;
 				outline: 0;
 				color: #FFF;
+                height: 2em;
 			}
 
 			#nav li.active a
 			{
 				color: #FFF;
+                height: 2em;
 			}
 
 			#nav > ul > li > ul
 			{
 				display: none;
+                height: 2em;
 			}
 	
 /*********************************************************************************/
